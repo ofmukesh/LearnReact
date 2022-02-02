@@ -16,7 +16,9 @@ export default class Test extends Component {
   render() {
     return (
       <div>
-        <h6 className="text-light bg-danger">{this.state.date}</h6>
+        <center>
+          <h6 className="text-light">{this.state.date}</h6>
+        </center>
       </div>
     );
   }
